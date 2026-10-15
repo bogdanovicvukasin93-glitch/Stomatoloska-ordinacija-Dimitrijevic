@@ -1,0 +1,329 @@
+@font-face {
+  font-family: "Phosphor-Bold";
+  src: url("Phosphor-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ph-bold {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "Phosphor-Bold" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.ph-bold.ph-arrow-left:before {
+  content: "\e058";
+}
+.ph-bold.ph-arrow-right:before {
+  content: "\e06c";
+}
+.ph-bold.ph-arrows-left-right:before {
+  content: "\e0a0";
+}
+.ph-bold.ph-caret-right:before {
+  content: "\e13a";
+}
+.ph-bold.ph-drop:before {
+  content: "\e210";
+}
+.ph-bold.ph-heart:before {
+  content: "\e2a8";
+}
+.ph-bold.ph-list:before {
+  content: "\e2f0";
+}
+.ph-bold.ph-plus:before {
+  content: "\e3d4";
+}
+.ph-bold.ph-target:before {
+  content: "\e47c";
+}
+.ph-bold.ph-x:before {
+  content: "\e4f6";
+}
+@font-face {
+  font-family: "Phosphor-Fill";
+  src: url("Phosphor-Fill.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ph-fill {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "Phosphor-Fill" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.ph-fill.ph-heart:before {
+  content: "\e2a8";
+}
+.ph-fill.ph-play:before {
+  content: "\e3d0";
+}
+.ph-fill.ph-shield-check:before {
+  content: "\e40c";
+}
+.ph-fill.ph-star:before {
+  content: "\e46a";
+}
+.ph-fill.ph-tooth:before {
+  content: "\e9cc";
+}
+@font-face {
+  font-family: "Phosphor-Duotone";
+  src: url("Phosphor-Duotone.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ph-duotone {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "Phosphor-Duotone" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.ph-duotone.ph-baby:before {
+  content: "\e774";
+  opacity: 0.2;
+}
+.ph-duotone.ph-baby:after {
+  content: "\e775";
+  margin-left: -1em;
+}
+.ph-duotone.ph-buildings:before {
+  content: "\e102";
+  opacity: 0.2;
+}
+.ph-duotone.ph-buildings:after {
+  content: "\e105";
+  margin-left: -1em;
+}
+.ph-duotone.ph-chats-circle:before {
+  content: "\e17e";
+  opacity: 0.2;
+}
+.ph-duotone.ph-chats-circle:after {
+  content: "\e17f";
+  margin-left: -1em;
+}
+.ph-duotone.ph-clipboard-text:before {
+  content: "\e198";
+  opacity: 0.2;
+}
+.ph-duotone.ph-clipboard-text:after {
+  content: "\e199";
+  margin-left: -1em;
+}
+.ph-duotone.ph-clock:before {
+  content: "\e19a";
+  opacity: 0.2;
+}
+.ph-duotone.ph-clock:after {
+  content: "\e19b";
+  margin-left: -1em;
+}
+.ph-duotone.ph-crown-simple:before {
+  content: "\e616";
+  opacity: 0.2;
+}
+.ph-duotone.ph-crown-simple:after {
+  content: "\e617";
+  margin-left: -1em;
+}
+.ph-duotone.ph-device-mobile:before {
+  content: "\e1e0";
+  opacity: 0.2;
+}
+.ph-duotone.ph-device-mobile:after {
+  content: "\e1e1";
+  margin-left: -1em;
+}
+.ph-duotone.ph-drop:before {
+  content: "\e210";
+  opacity: 0.2;
+}
+.ph-duotone.ph-drop:after {
+  content: "\e211";
+  margin-left: -1em;
+}
+.ph-duotone.ph-envelope-simple:before {
+  content: "\e218";
+  opacity: 0.2;
+}
+.ph-duotone.ph-envelope-simple:after {
+  content: "\e219";
+  margin-left: -1em;
+}
+.ph-duotone.ph-first-aid:before {
+  content: "\e56e";
+  opacity: 0.2;
+}
+.ph-duotone.ph-first-aid:after {
+  content: "\e56f";
+  margin-left: -1em;
+}
+.ph-duotone.ph-first-aid-kit:before {
+  content: "\e570";
+  opacity: 0.2;
+}
+.ph-duotone.ph-first-aid-kit:after {
+  content: "\e571";
+  margin-left: -1em;
+}
+.ph-duotone.ph-google-logo:before {
+  content: "\e292";
+  opacity: 0.2;
+}
+.ph-duotone.ph-google-logo:after {
+  content: "\e293";
+  margin-left: -1em;
+}
+.ph-duotone.ph-heart:before {
+  content: "\e2a8";
+  opacity: 0.2;
+}
+.ph-duotone.ph-heart:after {
+  content: "\e2a9";
+  margin-left: -1em;
+}
+.ph-duotone.ph-instagram-logo:before {
+  content: "\e2d0";
+  opacity: 0.2;
+}
+.ph-duotone.ph-instagram-logo:after {
+  content: "\e2d1";
+  margin-left: -1em;
+}
+.ph-duotone.ph-lightning:before {
+  content: "\e2de";
+  opacity: 0.2;
+}
+.ph-duotone.ph-lightning:after {
+  content: "\e2df";
+  margin-left: -1em;
+}
+.ph-duotone.ph-map-pin:before {
+  content: "\e316";
+  opacity: 0.2;
+}
+.ph-duotone.ph-map-pin:after {
+  content: "\e317";
+  margin-left: -1em;
+}
+.ph-duotone.ph-medal:before {
+  content: "\e320";
+  opacity: 0.2;
+}
+.ph-duotone.ph-medal:after {
+  content: "\e321";
+  margin-left: -1em;
+}
+.ph-duotone.ph-paper-plane-tilt:before {
+  content: "\e398";
+  opacity: 0.2;
+}
+.ph-duotone.ph-paper-plane-tilt:after {
+  content: "\e399";
+  margin-left: -1em;
+}
+.ph-duotone.ph-phone:before {
+  content: "\e3b8";
+  opacity: 0.2;
+}
+.ph-duotone.ph-phone:after {
+  content: "\e3b9";
+  margin-left: -1em;
+}
+.ph-duotone.ph-radioactive:before {
+  content: "\e9dc";
+  opacity: 0.2;
+}
+.ph-duotone.ph-radioactive:after {
+  content: "\e9dd";
+  margin-left: -1em;
+}
+.ph-duotone.ph-scan:before {
+  content: "\ebb6";
+  opacity: 0.2;
+}
+.ph-duotone.ph-scan:after {
+  content: "\ebb7";
+  margin-left: -1em;
+}
+.ph-duotone.ph-screwdriver:before {
+  content: "\e86e";
+  opacity: 0.2;
+}
+.ph-duotone.ph-screwdriver:after {
+  content: "\e86f";
+  margin-left: -1em;
+}
+.ph-duotone.ph-sparkle:before {
+  content: "\e6a2";
+  opacity: 0.2;
+}
+.ph-duotone.ph-sparkle:after {
+  content: "\e6a3";
+  margin-left: -1em;
+}
+.ph-duotone.ph-tooth:before {
+  content: "\e9cc";
+  opacity: 0.2;
+}
+.ph-duotone.ph-tooth:after {
+  content: "\e9cd";
+  margin-left: -1em;
+}
